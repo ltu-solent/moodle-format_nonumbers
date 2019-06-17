@@ -103,10 +103,10 @@ class format_nonumbers extends format_base {
             } else{
                 if (!empty($options['navigation'])) {
 
-// SSU_AMEND START - FORMAT NO NUMBERS
+// SU_AMEND START - FORMAT NO NUMBERS
 					//return null;
 					$url->param('section-', $sectionno);
-// SSU_AMEND END
+// SU_AMEND END
 					
                 }
                 $url->set_anchor('section-'.$sectionno);
